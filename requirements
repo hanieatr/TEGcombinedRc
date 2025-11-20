@@ -3,3 +3,4 @@ numpy==1.Version 1.26.4
 tensorflow==2.16.2
 scikit-learn==1.5.1
 pillow==10.4.0
+tensorflow==2.14.0
