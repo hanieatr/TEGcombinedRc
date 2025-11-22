@@ -1,5 +1,5 @@
 streamlit==1.32.0
-tensorflow-cpu==2.10.0
+tensorflow-cpu==2.20.0
 numpy
 pandas
 python_version >=3.12
