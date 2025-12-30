@@ -317,7 +317,7 @@ optical = st.sidebar.number_input("$η_{opt}$ ", 0.01, 1.0, 0.9, step=0.01)
 alpha_cooler = st.sidebar.number_input("$α_{rc}$", 0.01, 1.0, 0.05, step=0.01)
 taw_2 = st.sidebar.number_input("τ₂", 0.01, 1.0, 0.8, step=0.01)
 CR = st.sidebar.number_input("CR", 0.1, 100.0, 2.0, step=0.1)
-N = st.sidebar.number_input("$Nstr_{legs}$  (Number of legs)", 1.0, 200.0, 127.0, step=1.0)
+N = st.sidebar.number_input("$N_{legs}$ ", 1.0, 200.0, 127.0, step=1.0)
 
 # -------------------------------
 # State-Specific Inputs
@@ -875,4 +875,5 @@ if st.button("Prediction ", type="primary"):
         #         if tc is not None: st.metric("T_c", f"{tc:.3f} °C")
         #         with st.expander("Kelvin"):
         #             if th is not None: st.write(f"T_h: {th+273:.3f} K")
+
         #             if tc is not None: st.write(f"T_c: {tc+273:.3f} K")
