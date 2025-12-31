@@ -203,7 +203,7 @@ if col2.button("About Us"):
     col2.subheader("About Us")
     col2.markdown("**Team:** A.Mousavi, H. Aghakhani,H. Atrian Seresht, B. Baghapour", unsafe_allow_html=True)
 
-st.title("Performance Prediction of Thermoelectric Module with Radiative Cooling and Solar dish Concentrator")
+st.title("Performance Prediction of Thermoelectric Module with Radiative Cooling and Solar Concentrator")
 ########multiple pics
 # -------------------------------
 # گالری تصاویر (جایگزین st.image("gui.png") کن)
@@ -877,3 +877,4 @@ if st.button("Prediction ", type="primary"):
         #             if th is not None: st.write(f"T_h: {th+273:.3f} K")
 
         #             if tc is not None: st.write(f"T_c: {tc+273:.3f} K")
+
