@@ -647,7 +647,7 @@ def calculate_performance(T_h_k, T_c_k):
     delta_T = T_h_k - T_c_k
 
     # شرط مهم: اگر اختلاف دما کمتر از 1 کلوین باشه → عملاً توان صفره
-    if delta_T <= 0.1:
+    if delta_T <= 0.01:
         return {"I": 0.0, "V_out": 0.0, "Power": 0.0, "eta": 0.0, "Q_h": 0.0, "Q_c": 0.0,"power_density":0.0}
 
     # اگر A, L, N صفر یا منفی باشن
