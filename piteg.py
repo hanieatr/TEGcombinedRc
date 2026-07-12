@@ -304,7 +304,7 @@ material_val = {"BiTe": 1.0, "PbTe": 2.0, "Si80Ge20": 3.0, "SnSe": 4.0, "Bi0.5Sb
 
 # ......................................
 # ......................................
-A_rc = st.sidebar.number_input("$A_{rc}$ (m²)", 1e-5, 1, 0.001, step=1e-6, format="%.6f")
+A_rc = st.sidebar.number_input("$A_{rc}$ (m²)", 1e-5, 1.0, 0.001, step=1e-6, format="%.6f")
 A_cp = st.sidebar.number_input("$A_{cp}$ (m²)", 1e-5, 0.17, 0.001, step=1e-6, format="%.6f")
 G = st.sidebar.number_input("G (W/m²)", 0.0, 1500.0, 500.0, step=10.0)
 V = st.sidebar.number_input("V (m/s)", 0.0, 15.0, 2.0, step=0.1)
